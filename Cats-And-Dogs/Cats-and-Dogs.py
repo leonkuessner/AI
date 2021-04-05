@@ -7,10 +7,6 @@ import pickle
 from tensorflow.keras.callbacks import TensorBoard
 import time
 
-# NAME = "Cats-vs-dog-cnn-64x2-{}".format(int(time.time()))
-# NAME = f"Cats-vs-dog-cnn-64x2-{int(time.time())}"
-
-
 X = pickle.load(open("X.pickle", "rb"))
 y = pickle.load(open("y.pickle", "rb"))
 
